@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 40px;
+}
+
+.container {
+  padding: 20rem;
+  margin: 0 auto;
+}
