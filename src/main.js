@@ -4,34 +4,36 @@ import ValidateCpf from './modules/ValidateCpf';
 
 const btnGenerateCpf = document.querySelector('.btn-generate')
 const btnValidateCpf = document.querySelector('.btn-validate')
-const cpfResult = document.querySelector('.cpf-input')
+const cpfInput = document.querySelector('.cpf-input')
 
-const removeCpfValidation = () => {
-  cpfResult.classList.remove('valid', 'invalid')
-  document.querySelector('.icon_check').style.display = 'none'
-  document.querySelector('.icon_cancel').style.display = 'none'
-}
+const iconCheck = document.querySelector('.icon_check')
+const iconCancel = document.querySelector('.icon_cancel')
 
 const showCpfGenerated = () => {
   const cpf = new GenerateCpf()
-  cpfResult.value = cpf.generate()
-  
+  cpfInput.value = cpf.generate()
+
   removeCpfValidation()
 }
 
 const validateCpf = () => {
-  const cpf = new ValidateCpf(cpfResult.value)
+  const cpf = new ValidateCpf(cpfInput.value)
 
-  if (cpf.validate()) {
-    document.querySelector('.icon_check').style.display = 'block'
-    cpfResult.classList.add('valid')
+  if (!cpf.validate()) {
+    iconCancel.style.display = 'block'
+    return cpfInput.classList.add('invalid')
   }
-  else {
-    document.querySelector('.icon_cancel').style.display = 'block'
-    cpfResult.classList.add('invalid')
-  }
+
+  iconCheck.style.display = 'block'
+  cpfInput.classList.add('valid')
+}
+
+const removeCpfValidation = () => {
+  cpfInput.classList.remove('valid', 'invalid')
+  iconCheck.style.display = 'none'
+  iconCancel.style.display = 'none'
 }
 
 btnGenerateCpf.addEventListener('click', showCpfGenerated)
 btnValidateCpf.addEventListener('click', validateCpf)
-cpfResult.addEventListener('change', removeCpfValidation)
+cpfInput.addEventListener('change', removeCpfValidation)
