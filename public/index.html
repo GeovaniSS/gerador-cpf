@@ -4,12 +4,25 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
   <title>Gerador de CPFs</title>
 </head>
 <body>
   <section class="container">
-    <h1>Gerador de CPF</h1>
-    <div class="cpf-gerado"></div>
+    <div class="cpf-card">
+      <h1>Gerador de CPF</h1>
+
+      <div class="cpf-result">
+        <input type="text" class="cpf-input">
+        <span class="material-icons-outlined icon_check">check_circle_outline</span>
+        <span class="material-icons-outlined icon_cancel">cancel</span>
+      </div>
+
+      <div class="cpf-btns">
+        <button class="btn-validate">Validar CPF</button>
+        <button class="btn-generate">Gerar CPF</button>
+      </div>
+    </div>
   </section>
   
   <script src="./assets/js/bundle.js"></script>

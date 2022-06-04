@@ -164,8 +164,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "@charset \"UTF-8\";\r\n\r\n* {\r\n  padding: 0;\r\n  margin: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  font-size: 40px;\r\n}\r\n\r\n.container {\r\n  padding: 20rem;\r\n  margin: 0 auto;\r\n}", "",{"version":3,"sources":["webpack://./src/assets/css/style.css"],"names":[],"mappings":"AAAA,gBAAgB;;AAEhB;EACE,UAAU;EACV,SAAS;EACT,sBAAsB;AACxB;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,cAAc;EACd,cAAc;AAChB","sourcesContent":["@charset \"UTF-8\";\r\n\r\n* {\r\n  padding: 0;\r\n  margin: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  font-size: 40px;\r\n}\r\n\r\n.container {\r\n  padding: 20rem;\r\n  margin: 0 auto;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "@charset \"UTF-8\";\r\n\r\n* {\r\n  padding: 0;\r\n  margin: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  font-family: 'Roboto', sans-serif;\r\n}\r\n\r\nh1 {\r\n  font-size: 40px;\r\n}\r\n\r\nbutton {\r\n  cursor: pointer;\r\n  font-family: 'Roboto';\r\n  font-size: 16px;\r\n  border: none;\r\n  outline: none;\r\n}\r\n\r\ninput {\r\n  outline: none;\r\n  border: 2px solid transparent;\r\n}\r\n\r\n.container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: center;\r\n  align-items: center;\r\n  height: 100vh;\r\n  background-color: rgb(39, 168, 255);\r\n}\r\n\r\n.cpf-card {\r\n  width: 500px;\r\n  min-height: 250px;\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: center;\r\n  align-items: center;\r\n  gap: 15px;\r\n  padding: 20px 30px;\r\n  border-radius: 12px;\r\n  background-color: #fff;\r\n}\r\n\r\n.cpf-result {\r\n  width: 100%;\r\n  position: relative; \r\n}\r\n\r\n.cpf-input {\r\n  width: 100%;\r\n  border: 1px solid #ccc;\r\n  border-radius: 4px;\r\n  text-align: center;\r\n  padding: 6px 0px;\r\n  font-size: 20px;\r\n}\r\n\r\n.valid {\r\n  border: 1px solid rgb(86, 218, 136);\r\n}\r\n\r\n.invalid {\r\n  border: 1px solid rgb(255, 0, 0);\r\n}\r\n\r\n.icon_check, .icon_cancel {\r\n  display: none;\r\n  position: absolute;\r\n  top: 7px;\r\n  right: 10px;\r\n}\r\n\r\n.icon_check {\r\n  color: rgb(86, 218, 136);\r\n}\r\n\r\n.icon_cancel {\r\n  color: rgb(255, 0, 0);\r\n}\r\n\r\n.cpf-btns {\r\n  display: flex;\r\n  gap: 20px;\r\n}\r\n\r\n.btn-validate, .btn-generate {\r\n  background-color: transparent;\r\n  border: 1px solid #ccc;\r\n  border-radius: 6px;\r\n  padding: 8px 12px;\r\n}", "",{"version":3,"sources":["webpack://./src/assets/css/style.css"],"names":[],"mappings":"AAAA,gBAAgB;;AAIhB;EACE,UAAU;EACV,SAAS;EACT,sBAAsB;AACxB;;AAEA;EACE,iCAAiC;AACnC;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,eAAe;EACf,qBAAqB;EACrB,eAAe;EACf,YAAY;EACZ,aAAa;AACf;;AAEA;EACE,aAAa;EACb,6BAA6B;AAC/B;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,mBAAmB;EACnB,aAAa;EACb,mCAAmC;AACrC;;AAEA;EACE,YAAY;EACZ,iBAAiB;EACjB,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,mBAAmB;EACnB,SAAS;EACT,kBAAkB;EAClB,mBAAmB;EACnB,sBAAsB;AACxB;;AAEA;EACE,WAAW;EACX,kBAAkB;AACpB;;AAEA;EACE,WAAW;EACX,sBAAsB;EACtB,kBAAkB;EAClB,kBAAkB;EAClB,gBAAgB;EAChB,eAAe;AACjB;;AAEA;EACE,mCAAmC;AACrC;;AAEA;EACE,gCAAgC;AAClC;;AAEA;EACE,aAAa;EACb,kBAAkB;EAClB,QAAQ;EACR,WAAW;AACb;;AAEA;EACE,wBAAwB;AAC1B;;AAEA;EACE,qBAAqB;AACvB;;AAEA;EACE,aAAa;EACb,SAAS;AACX;;AAEA;EACE,6BAA6B;EAC7B,sBAAsB;EACtB,kBAAkB;EAClB,iBAAiB;AACnB","sourcesContent":["@charset \"UTF-8\";\r\n\r\n@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');\r\n\r\n* {\r\n  padding: 0;\r\n  margin: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  font-family: 'Roboto', sans-serif;\r\n}\r\n\r\nh1 {\r\n  font-size: 40px;\r\n}\r\n\r\nbutton {\r\n  cursor: pointer;\r\n  font-family: 'Roboto';\r\n  font-size: 16px;\r\n  border: none;\r\n  outline: none;\r\n}\r\n\r\ninput {\r\n  outline: none;\r\n  border: 2px solid transparent;\r\n}\r\n\r\n.container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: center;\r\n  align-items: center;\r\n  height: 100vh;\r\n  background-color: rgb(39, 168, 255);\r\n}\r\n\r\n.cpf-card {\r\n  width: 500px;\r\n  min-height: 250px;\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: center;\r\n  align-items: center;\r\n  gap: 15px;\r\n  padding: 20px 30px;\r\n  border-radius: 12px;\r\n  background-color: #fff;\r\n}\r\n\r\n.cpf-result {\r\n  width: 100%;\r\n  position: relative; \r\n}\r\n\r\n.cpf-input {\r\n  width: 100%;\r\n  border: 1px solid #ccc;\r\n  border-radius: 4px;\r\n  text-align: center;\r\n  padding: 6px 0px;\r\n  font-size: 20px;\r\n}\r\n\r\n.valid {\r\n  border: 1px solid rgb(86, 218, 136);\r\n}\r\n\r\n.invalid {\r\n  border: 1px solid rgb(255, 0, 0);\r\n}\r\n\r\n.icon_check, .icon_cancel {\r\n  display: none;\r\n  position: absolute;\r\n  top: 7px;\r\n  right: 10px;\r\n}\r\n\r\n.icon_check {\r\n  color: rgb(86, 218, 136);\r\n}\r\n\r\n.icon_cancel {\r\n  color: rgb(255, 0, 0);\r\n}\r\n\r\n.cpf-btns {\r\n  display: flex;\r\n  gap: 20px;\r\n}\r\n\r\n.btn-validate, .btn-generate {\r\n  background-color: transparent;\r\n  border: 1px solid #ccc;\r\n  border-radius: 6px;\r\n  padding: 8px 12px;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -755,15 +756,42 @@ var __webpack_exports__ = {};
   \*********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_css_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/css/style.css */ "./src/assets/css/style.css");
-/* harmony import */ var _modules_GenerateCpf_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/GenerateCpf.js */ "./src/modules/GenerateCpf.js");
+/* harmony import */ var _modules_GenerateCpf__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/GenerateCpf */ "./src/modules/GenerateCpf.js");
+/* harmony import */ var _modules_ValidateCpf__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/ValidateCpf */ "./src/modules/ValidateCpf.js");
 
 
 
-(function () {
-  var cpf = new _modules_GenerateCpf_js__WEBPACK_IMPORTED_MODULE_1__["default"]();
-  var cpfResult = document.querySelector('.cpf-gerado');
-  cpfResult.innerText = cpf.generate();
-})();
+var btnGenerateCpf = document.querySelector('.btn-generate');
+var btnValidateCpf = document.querySelector('.btn-validate');
+var cpfResult = document.querySelector('.cpf-input');
+
+var removeCpfValidation = function removeCpfValidation() {
+  cpfResult.classList.remove('valid', 'invalid');
+  document.querySelector('.icon_check').style.display = 'none';
+  document.querySelector('.icon_cancel').style.display = 'none';
+};
+
+var showCpfGenerated = function showCpfGenerated() {
+  var cpf = new _modules_GenerateCpf__WEBPACK_IMPORTED_MODULE_1__["default"]();
+  cpfResult.value = cpf.generate();
+  removeCpfValidation();
+};
+
+var validateCpf = function validateCpf() {
+  var cpf = new _modules_ValidateCpf__WEBPACK_IMPORTED_MODULE_2__["default"](cpfResult.value);
+
+  if (cpf.validate()) {
+    document.querySelector('.icon_check').style.display = 'block';
+    cpfResult.classList.add('valid');
+  } else {
+    document.querySelector('.icon_cancel').style.display = 'block';
+    cpfResult.classList.add('invalid');
+  }
+};
+
+btnGenerateCpf.addEventListener('click', showCpfGenerated);
+btnValidateCpf.addEventListener('click', validateCpf);
+cpfResult.addEventListener('change', removeCpfValidation);
 })();
 
 /******/ })()
